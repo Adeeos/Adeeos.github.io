@@ -2,7 +2,15 @@ body
 {
     margin: 0;
     padding: 0;
-    font-family: Verdana;   
+    font-family: Verdana;
+    width: 100%;
+}
+
+#container
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #head
@@ -11,33 +19,66 @@ body
     color: white;
     padding: 20px;
     font-size: 160%;
+    line-height: 400%;
     text-align: center;
-    height: auto;
 }
 
 #main
 {
     background-color: #40E0D0;
     width: 100%;
-    font-size: 150%;
+    font-size: 130%;
+    line-height: 200%;
     text-align: center;
     float: left;
-    height: auto;
+    
 }
 
-#postacie,miejsca, wydarzenia, artefakty
+#postacie
 {
     background-color: aqua;
-    width: 100%;
+    width: 25%;
     font-size: 130%;
     text-align: center;
     float: left;
-    height: auto;
+    line-height: 2500%;
+}
+
+#miejsca
+{
+    background-color: aqua;
+    width: 25%;
+    font-size: 130%;
+    text-align: center;
+    float: left;
+    line-height: 2500%;
+}
+
+#wydarzenia
+{
+    background-color: aqua;
+    width: 25%;
+    font-size: 130%;
+    text-align: center;
+    float: left;
+    line-height: 2500%;
+}
+
+#artefakty
+{
+    background-color: aqua;
+    width: 25%;
+    font-size: 130%;
+    text-align: center;
+    float: left;
+    line-height: 2500%;
 }
 
 #footer
 {
     width: 100%;
-    height: auto;
-    font-size: 60%;
+    font-size: 90%;
+    text-align: center;
+    clear: both;
+    line-height: 100%;
 }
