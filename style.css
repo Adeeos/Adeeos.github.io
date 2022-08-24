@@ -251,3 +251,33 @@ body
     line-height: 500%;
     color: white;
 }
+
+
+
+
+#header
+{
+    text-align: center;
+    float: left;
+    font-family: Verdana;
+    width: 100%;
+}
+
+.header-text
+{
+    color: white;
+    padding: 20px;
+    font-size: 100%;
+    line-height: 200%;
+    text-decoration-color: white;
+    text-align: center;
+    text-decoration-line: none;
+    font-family: Verdana;
+}
+#title
+{
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
