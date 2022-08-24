@@ -47,13 +47,13 @@ body
   top: var(--y);
   width: var(--size);
   height: var(--size);
-  background: radial-gradient(circle closest-side, pink, transparent);
+  background: radial-gradient(circle closest-side, gray, transparent);
   transform: translate(-50%, -50%);
   transition: width 0.2s ease, height 0.2s ease;
 }
 
 #head:hover:before {
-  --size: 200px;
+  --size: 100px;
 }
 
 #main
@@ -63,9 +63,9 @@ body
     font-size: 130%;
     line-height: 200%;
     text-align: center;
-    float: left;
-    
+    color: white; 
 }
+
 #nothing
 {
     float: left;
@@ -249,4 +249,5 @@ body
     text-align: center;
     clear: both;
     line-height: 500%;
+    color: white;
 }
