@@ -9,24 +9,42 @@
   <body>
     <div id="container">
         <div id="head">
+            <script>
+                let btn = document.querySelector('#head');
+                btn.addEventListener('mousemove', e => {
+                let rect = e.target.getBoundingClientRect();
+                let x = e.clientX - rect.left;
+                let y = e.clientY - rect.top;
+                btn.style.setProperty('--x', x + 'px');
+                btn.style.setProperty('--y', y + 'px');
+                });
+            </script>
             <h1>WITAM NA ADEEOS WIKI</h1>
         </div>
         <div id="main">
             <h3>Wiki jest poświęcona w całości uniwersum Adeeosa</h3>
         </div>
-        <div id="postacie">
-            <a href="" >Postacie</a>
-            
+        <div id="nothing"><br></div>
+        <div class="postacie-container">
+            <div class="postacie-img-holder"></div>
+            <a class="postacie-title-link" href="">Postacie</a>
         </div>
-        <div id="miejsca">
-            <a href="" >Miejsca</a>
+        
+        <div class="miejsca-container">
+            <div class="miejsca-img-holder"></div>
+            <a class="miejsca-title-link" href="">Miejsca</a>
         </div>
-        <div id="wydarzenia">
-            <a href="" >Wydarzenia</a>
+        
+        <div class="wydarzenia-container">
+            <div class="wydarzenia-img-holder"></div>
+            <a class="wydarzenia-title-link" href="">Wydarzenia</a>
         </div>
-        <div id="artefakty">
-            <a href="" >Artefakty</a>
+        
+        <div class="artefakty-container">
+            <div class="artefakty-img-holder"></div>
+            <a class="artefakty-title-link" href="">Artefakty</a>
         </div>
+        
         <div id="footer">
             <p>Wiki created by Adeeos</p>
         </div>

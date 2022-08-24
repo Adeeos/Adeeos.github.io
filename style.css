@@ -1,5 +1,6 @@
 body
 {
+    background-color: black;
     margin: 0;
     padding: 0;
     font-family: Verdana;
@@ -15,17 +16,49 @@ body
 
 #head
 {
-    background-color: #4682B4;
+    background-color: black;
     color: white;
     padding: 20px;
     font-size: 160%;
     line-height: 400%;
     text-align: center;
 }
+#head {
+  position: relative;
+  background: black;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+}
+
+#head h3 {
+  position: relative;
+}
+
+#head:before {
+  --size: 0;
+  content: '';
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, pink, transparent);
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease;
+}
+
+#head:hover:before {
+  --size: 200px;
+}
 
 #main
 {
-    background-color: #40E0D0;
+    background-color: black;
     width: 100%;
     font-size: 130%;
     line-height: 200%;
@@ -33,25 +66,151 @@ body
     float: left;
     
 }
-
-#postacie
+#nothing
 {
-    width: 25%;
-    font-size: 130%;
-    text-align: center;
     float: left;
-    line-height: 2500%;
-    background-color: #b3e0ff;
-    color: black;
+    width: 2%;
+    line-height: 200%;
+}
+.postacie-container {
+    width: 24%;
+    height: 500px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.postacie-img-holder {
+    width: 100%;
+    height: 100%;
+    background: url(ed869296a56f6ea48d2380fb75796305.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.postacie-img-holder:hover {
+    transform: scale(1.2);
+}
+.postacie-title-link {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 130%;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
     text-align: center;
-    transition: 0.3s;
+    text-decoration: none;
+}
+.postacie-title-link:hover {
+    text-decoration: underline;
 }
 
-#postacie:hover {
-  background-color: #80ccff;
-  color: white;
+.miejsca-container {
+    width: 24%;
+    height: 500px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.miejsca-img-holder {
+    width: 100%;
+    height: 100%;
+    background: url(IMG_20220702_141514.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.miejsca-img-holder:hover {
+    transform: scale(1.2);
+}
+.miejsca-title-link {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 130%;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.miejsca-title-link:hover {
+    text-decoration: underline;
 }
 
+.wydarzenia-container {
+    width: 24%;
+    height: 500px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.wydarzenia-img-holder {
+    width: 100%;
+    height: 100%;
+    background: url(1661347838805.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.wydarzenia-img-holder:hover {
+    transform: scale(1.2);
+}
+.wydarzenia-title-link {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 130%;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.wydarzenia-title-link:hover {
+    text-decoration: underline;
+}
+
+.artefakty-container {
+    width: 24%;
+    height: 500px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.artefakty-img-holder {
+    width: 100%;
+    height: 100%;
+    background: url(1661348001700.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.artefakty-img-holder:hover {
+    transform: scale(1.2);
+}
+.artefakty-title-link {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 130%;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.artefakty-title-link:hover {
+    text-decoration: underline;
+}
 
 #miejsca
 {
