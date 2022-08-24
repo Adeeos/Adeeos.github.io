@@ -281,3 +281,37 @@ body
     width: 100%;
     text-align: center;
 }
+
+.postac-container {
+    width: 24%;
+    height: 500px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.postac-img-holder {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+.postac-img-holder:hover {
+    transform: scale(1.2);
+}
+.postac-title-link {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 130%;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.postac-title-link:hover {
+    text-decoration: underline;
+}
