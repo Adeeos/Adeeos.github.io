@@ -43,6 +43,18 @@ body
     width: 54%;
     float: left;
 }
+#art-text
+{
+    text-decoration: underline;
+    color: white;
+}
+#art-text-black
+{
+    text-decoration: underline;
+    color: black;
+}
+
+
 
 #container
 {
@@ -90,4 +102,9 @@ td
     color: white;
     float: left;
     position: fixed; left: 10%; top: 50%;
+}
+
+#img-plo
+{   
+    position: fixed; left: 76%; top: 10%
 }
