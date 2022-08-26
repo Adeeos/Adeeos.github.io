@@ -40,7 +40,7 @@ body
 #article
 {
     color: white;
-    width: 60%;
+    width: 54%;
     float: left;
 }
 
@@ -70,4 +70,24 @@ th
 td
 {
     background-color: #F8F8FF;
+}
+
+#img-lca
+{
+    position: fixed; left: 69%; top: 11%;
+    width: 50%;
+    height: 10%;
+}
+
+#img-paruwa
+{
+    position: fixed; left: 76%; top: 11%;
+    width: 50%;
+    height: 15%;
+}
+#foto
+{
+    color: white;
+    float: left;
+    position: fixed; left: 10%; top: 50%;
 }
