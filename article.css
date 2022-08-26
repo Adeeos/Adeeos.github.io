@@ -51,16 +51,23 @@ body
 }
 #img
 {
-    float: left;
-    position: fixed; left: 77%
+    position: fixed; left: 78%; top: 12%
 }
 
 table
 {
-    border: 1px solid #B0E0E6;
-    width: 90%;
-    color: #B0E0E6;
+    border: 1px solid #FFFFFF;
+    color: black;
     text-align: center;
+    width: 30%;
     font-weight: 500;
-    
+    position: fixed; left: 67%; bottom: 53%
+}
+th
+{
+    background-color: #F5F5F5;
+}
+td
+{
+    background-color: #F8F8FF;
 }
