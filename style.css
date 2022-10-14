@@ -69,11 +69,11 @@ body
 #nothing
 {
     float: left;
-    width: 2%;
+    width: 5%;
     line-height: 200%;
 }
 .postacie-container {
-    width: 24%;
+    width: 30%;
     height: 500px;
     border: 1px solid #000000;
     overflow: hidden;
@@ -290,7 +290,7 @@ body
     float: left;
 }
 .postac-img-holder {
-    width: 100%;
+    width: 90%;
     height: 80%;
     background-position: center;
     background-size: cover;
