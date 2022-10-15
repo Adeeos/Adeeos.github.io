@@ -344,3 +344,9 @@ body
     width: .6%;
     line-height: 200%;
 }
+#nothing_news
+{
+    float: left;
+    width: 5%;
+    line-height: 1000%;
+}
