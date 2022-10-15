@@ -72,8 +72,14 @@ body
     width: 5%;
     line-height: 200%;
 }
+#nothing_index
+{
+    float: left;
+    width: 2%;
+    line-height: 200%;
+}
 .postacie-container {
-    width: 30%;
+    width: 24%;
     height: 500px;
     border: 1px solid #000000;
     overflow: hidden;
